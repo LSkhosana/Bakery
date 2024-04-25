@@ -1,9 +1,18 @@
-import backround from ".."
+// import background from "../Assets/background.jpg"
+import "../CSS/About.css"
+import NavBar from "./NavBar";
+
+
 
 
 function About() {
     return (
-      <><h1>Hello</h1></>
+      <>
+      <NavBar />
+      <div className="about">
+      {/* <img src = {background} alt = "background" /> */}
+      </div>
+      </>
     );
   }
   
