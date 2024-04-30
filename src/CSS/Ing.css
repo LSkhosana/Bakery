@@ -1,0 +1,68 @@
+.work-section-info2 {
+    width: 500px;
+    min-height: 450px;
+    background-color: black;
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 1rem;
+    color: white;
+    margin: 1rem 2rem;
+    margin-bottom: 5rem;
+  
+    /* Define a glowing box shadow */
+    box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #fff, 0 0 80px #fff, 0 0 120px #fff, 0 0 150px #fff;
+    
+    /* Define a gradient border */
+    border: 3px solid transparent;
+    background-clip: padding-box;
+    /* border-image: linear-gradient(to right, #FFD700, #FFA500, #FF4500) 1; */
+  }
+  
+  .work-section-info2 h2 {
+    margin: 1rem 0rem;
+  }
+  .work-section-bottom2 {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+    margin: 10rem;
+    flex-wrap: wrap;
+  }
+  .work-section-info2 p {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+  }
+
+  .steps-pan h1 {
+    color: #fff;
+    margin-bottom: 7rem;
+  }
+
+  .steps-pan h3 {
+    color: #fff;
+    margin-bottom: 1rem;
+  }
+  .steps-pan p{
+    color: #fff;
+  }
+
+  .steps-pan{
+    margin-left: 55%;
+    margin-top: -120rem;
+  }
+
+  .pa{
+    margin-top: 19rem;
+  }
+
+  .bro{
+    margin-top: 16rem;
+  }
