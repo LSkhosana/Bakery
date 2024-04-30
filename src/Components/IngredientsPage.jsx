@@ -3,6 +3,8 @@ import Pancake from "../Assets/Pancake.jpg"
 import brownie from "../Assets/brownie.webp"
 import Cheesecake from "../Assets/cheesecake.jpg"
 import "../CSS/Ing.css"
+import BackArrow from "../Assets/back-arrow-previous.svg"
+
 
 const IngredientsPage = () => {
     const ingredientInfoData = [
@@ -22,9 +24,16 @@ const IngredientsPage = () => {
           title: "Brownie",
           text: "1/2 cup all-purpose flour, 2 tablespoons espresso powder, 1/8 teaspoon baking powder, 1/8 teaspoon salt, 1 cup white sugar, 1/2 cup butter, softened, 2 large eggs, 2 ounces unsweetened baking chocolate, melted, 1/2 teaspoon vanilla extract",
         },
+
+        
       ];
     return(
         <div className="work-section-bottom2">
+             <div className="arrows">
+                <a href="/">
+                    <img src={BackArrow} alt="Back" style={{ width: '150px', height: '50px' }} />
+                </a>
+            </div>
         {ingredientInfoData.map((data) => (
           <div className="work-section-info2" key={data.title}>
             <div className="info-boxes-img-container">

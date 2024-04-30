@@ -44,7 +44,8 @@ const Navbar = () => {
   return (
     <nav>
       <div className="nav-logo-container">
-        <img src={Logo} alt="" />
+        {/* <img src={Logo} alt="" /> */}
+        <h1 style={{color:'#fe9e0d', fontSize:'2rem'}}>Logo.</h1>
       </div>
       <div className="navbar-links-container">
        
