@@ -25,12 +25,10 @@ const About = () => {
           Sugar Is An Important Part Of A Balanced Diet
         </h1>
         <p className="primary-text">
-          Lorem ipsum dolor sit amet consectetur. Non tincidunt magna non et
-          elit. Dolor turpis molestie dui magnis facilisis at fringilla quam.
+        At Sweet Treats, our journey began with a humble oven and a passion for baking. What started as a small home kitchen venture has blossomed into a beloved neighborhood bakery
         </p>
         <p className="primary-text">
-          Non tincidunt magna non et elit. Dolor turpis molestie dui magnis
-          facilisis at fringilla quam.
+        With every confection crafted from the heart, we strive to bring joy to your taste buds, one delectable treat at a time. Welcome to our sweet world of homemade goodness.
         </p>
         <div className="about-buttons-container">
           <button className="secondary-button">Learn More</button>

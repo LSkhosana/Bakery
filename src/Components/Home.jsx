@@ -22,7 +22,7 @@ const Home = () => {
           Welcome to SweetTreats, your ultimate destination for delicious and effortless dessert recipes! At SweetTreats, we believe that baking shouldn't be complicated. Our mission is to empower home bakers of all skill levels to create mouthwatering desserts without stress or hassle.
           </p>
           <button className="secondary-button">
-            <Link to="/ingredients">More info <FiArrowRight /></Link>
+            <Link to="/About">More info <FiArrowRight /></Link>
           </button>
         </div>
         <div className="home-image-section">

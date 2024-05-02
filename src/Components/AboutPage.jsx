@@ -4,7 +4,7 @@ import Footer from "./Footer";
 import Testimonial from "./Testimonial";
 
 
-function HomePage() {
+function AboutPage() {
     return (
         <div className="App">
           <About />
@@ -15,4 +15,4 @@ function HomePage() {
 };
 
 
-export default HomePage;
+export default AboutPage;
