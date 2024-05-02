@@ -45,12 +45,13 @@ const Navbar = () => {
     <nav>
       <div className="nav-logo-container">
         {/* <img src={Logo} alt="" /> */}
-        <h1 style={{color:'#fe9e0d', fontSize:'2rem'}}>Logo.</h1>
+        <h1 style={{color:'#fe9e0d', fontSize:'2rem'}}>SweetTreats.</h1>
       </div>
       <div className="navbar-links-container">
        
         <a href="">Home</a>
         <a href="">About</a>
+        <a href="">Menu</a>
         <a href="">
           <BsCart2 className="navbar-cart-icon" />
         </a>

@@ -1,16 +1,14 @@
 import "../App.css";
 import About from "./About";
-import Work from "./Work";
-import Contact from "./Contact";
 import Footer from "./Footer";
+import Testimonial from "./Testimonial";
 
 
 function HomePage() {
     return (
         <div className="App">
           <About />
-          <Work />
-          <Contact />
+        <Testimonial/>
           <Footer />
         </div>
       );

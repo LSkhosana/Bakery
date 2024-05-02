@@ -2,6 +2,11 @@ import React from "react";
 import Pancake from "../Assets/Pancake.jpg"
 import brownie from "../Assets/brownie.webp"
 import Cheesecake from "../Assets/cheesecake.jpg"
+import Contact from "./Contact";
+import Footer from "./Footer";
+import Pie from "../Assets/Pie.jpg"
+import Muffin from "../Assets/choc muffins.jpg"
+import Navbar from "./Navbar";
 
 
 const Work = () => {
@@ -23,8 +28,25 @@ const Work = () => {
     },
 
     
+    {
+      image: Muffin,
+      title: "Chocolate Muffins",
+      text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et lorem ipsum",
+    },
+
+    {
+      image: Pie,
+      title: "Pumpkin Pie",
+      text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et lorem ipsum",
+    },
+
+    
+    
   ];
   return (
+    <>
+    <Navbar/>
+    <Contact/>
     <div className="work-section-wrapper">
       <div className="work-section-top">
         <p className="primary-subheading">Dessert</p>
@@ -42,10 +64,16 @@ const Work = () => {
             </div>
             <h2>{data.title}</h2>
             <p>{data.text}</p>
+            <div className="about-buttons-container">
+          <button style={{backgroundcolor:'white',}} className="secondary-button">Order Now</button>
+          
+        </div>
           </div>
         ))}
       </div>
+      <Footer/>
     </div>
+    </>
   );
 };
 
